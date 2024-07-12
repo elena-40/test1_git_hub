@@ -57,32 +57,12 @@ Pour changer de branche :
 - git remote -v (Pour lister les dépôts distants)
 - git remote add origin https://github.com/utilisateur/repo.git (Pour ajouter un dépôt distant)
 
-13. git fetch
+13. git fetch - Récupère les modifications depuis un dépôt distant sans les fusionner.
+- git fetch origin
 
-Récupère les modifications depuis un dépôt distant sans les fusionner.
+14. git rebase - Applique les commits de la branche courante sur une autre branche.
+- git rebase branche-cible
 
-sh
-
-git fetch origin
-
-14. git rebase
-
-Applique les commits de la branche courante sur une autre branche.
-
-sh
-
-git rebase branche-cible
-
-15. git stash
-
-Enregistre temporairement les modifications locales pour les appliquer plus tard.
-
-sh
-
-git stash
-
-Pour appliquer les modifications stashed :
-
-sh
-
-git stash pop
+15. git stash - Enregistre temporairement les modifications locales pour les appliquer plus tard.
+- git stash (Pour appliquer les modifications stashed):
+- git stash pop
