@@ -47,39 +47,15 @@ Je veux faire un test de commit
 
 10. git checkout - Change de branche ou restaure des fichiers.
 Pour changer de branche :
+ - git checkout branche (Pour créer et passer à une nouvelle branche :
+ - git checkout -b nouvelle-branche
 
-sh
+11. git merge - Fusionne une branche dans la branche courante.
+ - git merge branche-a-fusionner
 
-git checkout branche
-
-Pour créer et passer à une nouvelle branche :
-
-sh
-
-git checkout -b nouvelle-branche
-
-11. git merge
-
-Fusionne une branche dans la branche courante.
-
-sh
-
-git merge branche-a-fusionner
-
-12. git remote
-
-Gère les dépôts distants.
-Pour lister les dépôts distants :
-
-sh
-
-git remote -v
-
-Pour ajouter un dépôt distant :
-
-sh
-
-git remote add origin https://github.com/utilisateur/repo.git
+12. git remote - Gère les dépôts distants.
+- git remote -v (Pour lister les dépôts distants)
+- git remote add origin https://github.com/utilisateur/repo.git (Pour ajouter un dépôt distant)
 
 13. git fetch
 
